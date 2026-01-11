@@ -1,24 +1,12 @@
 {
   "article": [],
   "blog": [],
-  "brand": [],
   "collection": [],
   "company": [],
   "company_location": [],
   "location": [],
   "market": [],
-  "order": [
-    {
-      "key": "resident_id",
-      "namespace": "RESIDENT_ID_APP",
-      "name": "Resident ID",
-      "description": ".",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    }
-  ],
+  "order": [],
   "page": [
     {
       "key": "founders",
@@ -110,6 +98,16 @@
       "type": {
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "hidden",
+      "namespace": "seo",
+      "name": "SEO hidden",
+      "description": "",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
       }
     }
   ],
